@@ -1,0 +1,19 @@
+.subscription{
+    display: flex;
+    justify-content: center;
+}
+.subscription-title{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    margin-top: 45px;
+}
+.subscription-title >p {
+    margin: 25px 0;
+}
+@media (max-width:425px){
+    .subscription{
+        flex-direction: column-reverse;
+    }
+}

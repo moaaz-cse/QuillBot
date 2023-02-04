@@ -1,0 +1,25 @@
+.center {
+  text-align: center;
+}
+.upgrade-title {
+  font-size: 30px;
+  margin: 30px 15px 15px;
+  line-height: 41px;
+}
+.upgrade-btn {
+  background-color: #499557;
+  border-radius: 20px;
+  font-size: 17px;
+  padding: 6px 20px;
+  margin-bottom: 70px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  max-width: 365px;
+  min-height: 44px;
+  width: 100%;
+}
+.upgrade-btn:hover {
+  background-color: green;
+  cursor: pointer;
+}

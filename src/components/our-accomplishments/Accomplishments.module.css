@@ -1,0 +1,31 @@
+.circle-background {
+  fill: none;
+  stroke: #ddd;
+}
+.chart-header {
+  text-align: center;
+  padding-top: 26px;
+}
+.chart-header--title {
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 21px;
+  margin-bottom: 10px;
+}
+.chart-header--description {
+  font-size: 16px;
+  max-width: 470px;
+  margin: 0px auto 58px;
+}
+.chart-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (max-width:425px){
+  .chart-items {
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+  }
+}

@@ -1,0 +1,10 @@
+.green{
+  background-color: #499557;
+}
+.btn--green {
+  background-color: #499557;
+}
+.btn--green:hover{
+  background-color: green;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+:root {
+  --color1: #499557;
+}
+.svg {
+  margin-left: 30px;
+}
+.circle-background {
+  fill: none;
+  stroke: #ddd;
+}
+.circle-progress {
+  fill: none;
+  stroke: var(--color1);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.circle-title {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  fill: #499557;
+}
+.circle-text {
+  font-size: 16px;
+  color: #252525;
+  max-width: 275px;
+  text-align: center;
+}
+@media (max-width: 425px) {
+  .circle-text {
+    font-size: 18px;
+    max-width: 400px;
+  }
+  .svg {
+    margin-left: 100px;
+  }
+}

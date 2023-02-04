@@ -1,0 +1,41 @@
+.golden {
+  background-color: #dc9e00;
+}
+.btn--golden {
+  background-color: #dc9e00;
+}
+.btn--golden:hover {
+  background-color: darkgoldenrod;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+  /* position: absolute; */
+}
+.flex {
+  display: flex;
+}
+.info {
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  border: none;
+  background-position: center;
+  margin-top: 5px;
+  vertical-align: sub;
+}
+.hide {
+  display: none;
+  position: relative;
+  right: 50px;
+  z-index: 2;
+}
+/* .info:hover + .hide {
+  display: block;
+  color: red;
+  max-width: 100px;
+  max-height: fit-content;
+} */
+
